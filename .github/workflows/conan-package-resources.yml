@@ -23,7 +23,7 @@ on:
 
 jobs:
   conan-package:
-    uses: ultimaker/cura-workflows/.github/workflows/conan-package.yml@main
+    uses: theli-ua/cura-workflows/.github/workflows/conan-package.yml@main
     with:
       conan_recipe_root: "./resources/"
       platform_windows: false
